@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<!--
+/**
+ * Biz
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Biz.com license that is
+ * available through the world-wide-web at this URL:
+ * https://www.bizcommerce.com.br/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Biz
+ * @package     Biz_Ebit
+ * @copyright   Copyright (c) Biz (https://www.bizcommerce.com.br/)
+ * @license     https://www.bizcommerce.com.br/LICENSE.txt
+ */
+ -->
+
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+                <value id="ebit-script" type="host">*.ebit.com.br</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="ebitempresa-style" type="host">*.ebit.com.br</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <value id="ebit-img" type="host">*.ebit.com.br</value>
+                <value id="ebitempresa-img" type="host">*.ebitempresa.com.br</value>
+                <value id="newimgebit-img" type="host">newimgebit-a.akamaihd.net</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>

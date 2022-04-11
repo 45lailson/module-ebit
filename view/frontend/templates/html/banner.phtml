@@ -1,0 +1,8 @@
+<?php /** @var \Biz\Ebit\Block\Checkout\Success\Success $block */?>
+<?php if ($block->isEnableBanner()): ?>
+<div id="container-banner-ebit">
+    <param name="ebit-param" id="ebitParam" value="<?= $block->getEbitParams(); ?>" />
+    <a id="bannerEbit"></a>
+</div>
+<?php endif;?>
+

@@ -1,0 +1,27 @@
+#container-banner-ebit {
+    width: 100%;
+    text-align: center;
+}
+
+#container-selo-ebit {
+    display: block;
+    float: right;
+    margin-top: 50px;
+    margin-right: -300px;
+}
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__s) {
+    #container-selo-ebit {
+        float: initial;
+        margin-top: 20px;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+    #container-selo-ebit {
+        float: initial;
+        margin-top: 20px;
+        margin-right: auto;
+        text-align: center;
+    }
+}
