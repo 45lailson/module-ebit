@@ -24,7 +24,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Lailson\\Biz\\": "src/"
+            "Lailson\\Ebit\\": "src/"
         }
     }
 }
