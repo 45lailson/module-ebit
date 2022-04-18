@@ -1,11 +1,11 @@
 <?php
 
 /**
- * @package Biz\Ebit
+ * @package Lailson\Ebit
  * @author Lailson
  */
 
-namespace Biz\Ebit\Helper;
+namespace Lailson\Ebit\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Store\Model\ScopeInterface;

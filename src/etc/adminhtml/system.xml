@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @package Biz\Ebit
+ * @package Lailson\Ebit
  * @author Lailson
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
@@ -10,12 +10,12 @@
             <class>separator-top</class>
             <label>Ebit</label>
             <tab>sales</tab>
-            <resource>Biz_Ebit::ebit_config</resource>
+            <resource>Lailson_Ebit::ebit_config</resource>
             <group id="general" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General Configuration</label>
                 <field id="enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Enabled</label>
-                    <comment>If enabled it'll show the Ebit on success page</comment>
+                    <comment>If enabled it'll show the Lailson on success page</comment>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
                 <field id="enable_banner" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">

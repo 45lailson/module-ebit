@@ -1,13 +1,13 @@
 <?php
 
 /**
- * @package Biz\Ebit
+ * @package Lailson\Ebit
  * @author Lailson
  */
 
-namespace Biz\Ebit\Block\Checkout\Success;
+namespace Lailson\Ebit\Block\Checkout\Success;
 
-use Biz\Ebit\Helper\Data;
+use Lailson\Ebit\Helper\Data;
 use Magento\Checkout\Model\Session;
 use Magento\Framework\View\Element\Template;
 use Magento\Framework\View\Element\Template\Context;

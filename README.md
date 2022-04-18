@@ -1,8 +1,8 @@
 **Magento 2 Ebit** 
 
- # Lailson-Biz
+ # Lailson Ebit
 
-O `Lailson Biz` foi criado para adicionar novas funcionalidades a qualquer coisa relacionada a cadastro de modulos no admin e emails dos  clientes no Magento.
+O `Lailson Ebit` foi criado para adicionar novas funcionalidades a qualquer coisa relacionada a cadastro de modulos no admin e emails dos  clientes no Magento.
 
 
 ## Instalação via .zip
@@ -80,7 +80,7 @@ $ composer update
 
 **Configurações** 
 
-+ Modulo se encontra em `Lojas > Configurações > Biz > Ebit`
++ Modulo se encontra em `Lojas > Configurações > Lailson > Ebit`
 
 ![Configuraçao_Modulo_Admin](docs/configuracao_modulo.png)
 
