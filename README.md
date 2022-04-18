@@ -1,10 +1,7 @@
 **Magento 2 Ebit** 
 
-<<<<<<< HEAD
  # Lailson Ebit
-=======
- # Lailson-Ebit
->>>>>>> 415ad411e491cc58959cc9b4458faab902bb424a
+
 
 O `Lailson Ebit` foi criado para adicionar novas funcionalidades a qualquer coisa relacionada a cadastro de modulos no admin e emails dos  clientes no Magento.
 
